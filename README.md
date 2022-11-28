@@ -17,14 +17,14 @@ In random oversampling, instances of the minority class are randomly selected an
 
 ![Random Oversampling](img/Random_Oversampling.png)
 
-Balanced accuracy score: 67%
+### Balanced accuracy score: 67%
 
-High Risk 
+### High Risk 
  - precision rate: 1%
  - recall rate: 74%
  - F1: 2%
 
-Low Risk
+### Low Risk
  - precision rate: 100%
  - recall rate: 61%
  - F1: 75%
@@ -42,14 +42,14 @@ Another deficiency of SMOTE is its vulnerability to outliers. We said earlier th
 
 ![SMOTE Oversampling](img/SMOTE.png)
 
-Balanced accuracy score: 66%
+### Balanced accuracy score: 66%
 
-High Risk 
+### High Risk 
  - precision rate: 1%
  - recall rate: 63%
  - F1: 2%
 
-Low Risk
+### Low Risk
  - precision rate: 100%
  - recall rate: 69%
  - F1: 63%
@@ -62,14 +62,14 @@ Both oversampling and undersampling involve tradeoffs. Oversampling addresses cl
 
 ![Undersampling](img/Undersampling.png)
 
-Balanced accuracy score: 54%
+### Balanced accuracy score: 54%
 
-High Risk 
+### High Risk 
  - precision rate: 1%
  - recall rate: 69%
  - F1: 1%
 
-Low Risk
+### Low Risk
  - precision rate: 100%
  - recall rate: 40%
  - F1: 57%
@@ -85,14 +85,14 @@ If the two nearest neighbors of a data point belong to two different classes, th
 
 ![Combination Sampling](img/Combination.png)
 
-Balanced accuracy score: 64%
+### Balanced accuracy score: 64%
 
-High Risk 
+### High Risk 
  - precision rate: 1%
  - recall rate: 72%
  - F1: 2%
 
-Low Risk
+### Low Risk
  - precision rate: 100%
  - recall rate: 57%
  - F1: 72%
@@ -107,14 +107,14 @@ A balanced random forest randomly under-samples each boostrap sample to balance 
 
 ![Balanced Random Forest Classifier](img/Random_Forest.png)
 
-Balanced accuracy score: 79%
+### Balanced accuracy score: 79%
 
-High Risk 
+### High Risk 
  - precision rate: 3%
  - recall rate: 70%
  - F1: 6%
 
-Low Risk
+### Low Risk
  - precision rate: 100%
  - recall rate: 88%
  - F1: 94%
@@ -127,14 +127,14 @@ A specific method which uses AdaBoostClassifier as learners in the bagging class
 
 ![Easy Ensemble AdaBoost Classifier](img/Easy_Ensemble.png)
 
-Balanced accuracy score: 93%
+### Balanced accuracy score: 93%
 
-High Risk 
+### High Risk 
  - precision rate: 9%
  - recall rate: 92%
  - F1: 16%
 
-Low Risk
+### Low Risk
  - precision rate: 100%
  - recall rate: 94%
  - F1: 97%
