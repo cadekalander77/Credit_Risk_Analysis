@@ -15,8 +15,6 @@ To compare all the 6 methods used in this research we are evaluating 3 parameter
 
 In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.
 
-![Random Oversampling](img/Random_Oversampling.png)
-
 ### Balanced accuracy score: 67%
 
 ### High Risk 
@@ -40,8 +38,6 @@ It's important to note that although SMOTE reduces the risk of oversampling, it 
 
 Another deficiency of SMOTE is its vulnerability to outliers. We said earlier that a minority class instance is selected, and new values are generated based on its distance from its neighbors. If the neighbors are extreme outliers, the new values will reflect this.
 
-![SMOTE Oversampling](img/SMOTE.png)
-
 ### Balanced accuracy score: 66%
 
 ### High Risk 
@@ -60,7 +56,6 @@ Undersampling is another technique to address class imbalance. Undersampling tak
 
 Both oversampling and undersampling involve tradeoffs. Oversampling addresses class imbalance by duplicating or mimicking existing data. In contrast, undersampling only uses actual data. On the other hand, undersampling involves loss of data from the majority class. Furthermore, undersampling is practical only when there is enough data in the training set. There must be enough usable data in the undersampled majority class for a model to be useful.
 
-![Undersampling](img/Undersampling.png)
 
 ### Balanced accuracy score: 54%
 
@@ -83,8 +78,6 @@ SMOTEENN combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms. SMOTE
   - Clean the resulting data with an undersampling strategy.
 If the two nearest neighbors of a data point belong to two different classes, that data point is dropped.
 
-![Combination Sampling](img/Combination.png)
-
 ### Balanced accuracy score: 64%
 
 ### High Risk 
@@ -105,7 +98,6 @@ These simple trees are weak learners because they are created by randomly sampli
 
 A balanced random forest randomly under-samples each boostrap sample to balance it.
 
-![Balanced Random Forest Classifier](img/Random_Forest.png)
 
 ### Balanced accuracy score: 79%
 
@@ -125,7 +117,6 @@ The classifier is an ensemble of AdaBoost learners trained on different balanced
 
 A specific method which uses AdaBoostClassifier as learners in the bagging classifier is called “EasyEnsemble”. The EasyEnsembleClassifier allows to bag AdaBoost learners which are trained on balanced bootstrap samples. 
 
-![Easy Ensemble AdaBoost Classifier](img/Easy_Ensemble.png)
 
 ### Balanced accuracy score: 93%
 
