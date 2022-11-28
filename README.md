@@ -1,5 +1,5 @@
 # Credit_Risk_Analysis
-Challenge 17
+## Challenge 17
 
 To compare all the 6 methods used in this research we are evaluating 3 parameters: 
 
